@@ -6,6 +6,9 @@ function App() {
 
   return (
     <>
+    <div>
+      <h1>Should I Buy??</h1>
+    </div>
     </>
   )
 }
