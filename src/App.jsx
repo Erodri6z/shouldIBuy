@@ -1,14 +1,19 @@
 // import { useState } from 'react'
-
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import Landing from './pages/Landing/landing'
 
 function App() {
 
   return (
     <>
-    <div>
-      <h1>Should I Buy??</h1>
-    </div>
+    <Routes>
+      <Route 
+        path="/"
+        element={<Landing />}
+      />
+    </Routes>
     </>
   )
 }
