@@ -5,7 +5,9 @@ const Landing = () => {
     <>
     <div>
       <h2>Should I Buy???</h2>
-      <button>Get started</button>
+      <a href="/survey">
+        <button>Get started</button>
+      </a>
     </div>
     </>
   )

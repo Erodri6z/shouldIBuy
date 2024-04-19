@@ -5,6 +5,7 @@ import './App.css'
 import Landing from './pages/Landing/landing'
 import Footer from './components/footer/footer'
 import About from './pages/About/about'
+import Survey from './pages/Survey/survey'
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
       <Route
         path='/about'
         element={<About />}
+      />
+      <Route
+        path="/survey"
+        element={<Survey /> }
       />
     </Routes>
     <Footer />

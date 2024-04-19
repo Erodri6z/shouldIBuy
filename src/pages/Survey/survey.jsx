@@ -3,7 +3,10 @@ import React from "react";
 const Survey = () => {
   return (
     <div>
-      this is where the questions will be
+      <h1>Fill this out.</h1>
+      <div>
+        
+      </div>
     </div>
   )
 }
