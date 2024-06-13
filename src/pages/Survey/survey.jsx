@@ -8,7 +8,7 @@ const Survey = () => {
   },{
     q:'2'
   },{
-    q:'2'
+    q:'3'
   }]
 
   return (
@@ -25,13 +25,13 @@ const Survey = () => {
               <h3>{q.q}</h3>
               <span></span>
               <div className="checkbox-div">
-              <label>Yes</label>
-              <input type="checkbox" name="Yes" id="yes" />
+                <label>Yes</label>
+                <input type="checkbox" name="yes" id="yes" />
               </div>
               <span></span>
               <div className="checkbox-div">
-              <label>No</label>
-              <input type="checkbox" name="Yes" id="yes" />
+                <label>No</label>
+                <input type="checkbox" name="no" id="no" />
               </div>
             </div>
           )
