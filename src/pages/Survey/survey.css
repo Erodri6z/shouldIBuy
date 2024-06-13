@@ -1,5 +1,6 @@
 .survey{
   border: solid 2px white;
+  padding: 20px;
 }
 
 .chart-legend{
@@ -9,4 +10,9 @@
 
 span{
   border: 2px solid blue;
+}
+
+.checkbox-div{
+  display: flex;
+  flex-direction: column;
 }

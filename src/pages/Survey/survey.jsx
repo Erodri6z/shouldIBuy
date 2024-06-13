@@ -8,7 +8,7 @@ const Survey = () => {
   },{
     q:'2'
   },{
-    q:'3'
+    q:'2'
   }]
 
   return (
@@ -18,15 +18,21 @@ const Survey = () => {
       <div className="survey">
         <div className="chart-legend">
           <h2>Question</h2>
-          <span></span>
-          <h2>Yes</h2>
-          <span></span>
-          <h2>No</h2>
         </div>
         {
           questions.map(q => 
-            <div key={q.q}>
+            <div key={q.q} className="chart-legend">
               <h3>{q.q}</h3>
+              <span></span>
+              <div className="checkbox-div">
+              <label>Yes</label>
+              <input type="checkbox" name="Yes" id="yes" />
+              </div>
+              <span></span>
+              <div className="checkbox-div">
+              <label>No</label>
+              <input type="checkbox" name="Yes" id="yes" />
+              </div>
             </div>
           )
         }
