@@ -1,3 +1,7 @@
+.survey{
+  border: solid 2px white;
+}
+
 .chart-legend{
   display: flex;
   justify-content: space-around;
